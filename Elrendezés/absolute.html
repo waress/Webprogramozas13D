@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8">
+    <title>Abszolút pozícionálás</title>
+    <style>
+      body {
+        background-color: #333;
+      }
+
+      .container {
+        width: 300px;
+        height: calc(100vh - 40px);
+        margin: 20px auto;
+        background-color: #fff;
+      }
+
+      .box {
+        width: 100px;
+        height: 100px;
+      }
+
+      #box-01 {
+        background-color: red;
+      }
+      #box-02 {
+        background-color: yellow;
+      }
+      #box-03 {
+        background-color: yellowgreen;
+      }
+      #box-04 {
+        background-color: skyblue;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="box-01" class="box">#box-01</div>
+      <div id="box-02" class="box">#box-02</div>
+      <div id="box-03" class="box">#box-03</div>
+      <div id="box-04" class="box">#box-04</div>
+    </div>
+  </body>
+</html>
