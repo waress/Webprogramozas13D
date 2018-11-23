@@ -1,0 +1,27 @@
+
+ul {
+  list-style-type: none;
+  margin-top: 2rem;
+  padding-left: .25rem;
+}
+
+label {
+  font-weight: bold;
+}
+
+li {
+  margin-bottom: .5rem;
+}
+
+i {
+  margin-right: 1rem;
+}
+
+.input-group-text {
+  background-color: transparent;
+  border-left-width: 0;
+}
+
+#email {
+  border-right-width: 0;
+}
